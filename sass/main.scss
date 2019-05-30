@@ -1,0 +1,10 @@
+$fa-font-path: "./../node_modules/@fortawesome/fontawesome-free/webfonts/";
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
+
+$icon-font-path: "~@blueprintjs/core/resources/icons";
+
+@import "../node_modules/@blueprintjs/core/src/blueprint";
+

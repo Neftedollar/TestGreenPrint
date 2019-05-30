@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+  <!--Core-->
+    <Compile Include="..\..\GreenPrint\src\Fable.BluePrint.Core\Core\Common.fs"/>
+    <Compile Include="..\..\GreenPrint\src\Fable.BluePrint.Icons\IconNames.fs"/>
+    <Compile Include="..\..\GreenPrint\src\Fable.BluePrint.Core\Core\Icon.fs"/>
+    <Compile Include="..\..\GreenPrint\src\Fable.BluePrint.Core\Core\Button.fs"/>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Global to the app -->
+    <Compile Include="Global.fs" />
+    <!-- Info -->
+    <Compile Include="Info/View.fs" />
+    <!-- Counter -->
+    <Compile Include="Counter/Types.fs" />
+    <Compile Include="Counter/State.fs" />
+    <Compile Include="Counter/View.fs" />
+    <!-- Home -->
+    <Compile Include="Button/Types.fs" />
+    <Compile Include="Button/State.fs" />
+    <Compile Include="Button/View.fs" />
+    <!-- Navbar -->
+    <Compile Include="Navbar/View.fs" />
+    <!-- App -->
+    <Compile Include="Types.fs" />
+    <Compile Include="State.fs" />
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>

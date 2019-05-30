@@ -1,0 +1,11 @@
+source https://nuget.org/api/v2
+
+storage:none
+
+nuget Fable.Elmish.HMR prerelease
+#nuget FSharp.Core prerelease
+nuget Fable.Core prerelease
+nuget Fable.Elmish.React prerelease
+nuget Fable.Elmish.Browser prerelease
+nuget Fable.Elmish.Debugger prerelease
+nuget Fable.Browser.Dom prerelease
