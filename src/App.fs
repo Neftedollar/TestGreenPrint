@@ -12,7 +12,7 @@ open Types
 open App.State
 open Global
 
-importAll "../sass/main.sass"
+importAll "../sass/main.scss"
 
 open Fable.React
 open Fable.React.Props
